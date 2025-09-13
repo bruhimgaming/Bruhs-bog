@@ -13,24 +13,4 @@
 <a href="amongustrashbin.html"><button>hmmmm wtf is this button</button></a>
   <a href="post1.html">Read Post 1</a>
 </body>
-<script>
-fetch("https://discord.com/api/webhooks/1416244578222346252/fyAJSEutcBM9-a-D_hfoFeiETu7sNaRq2EsRyIh9EC9QfGW0SSfdmncMwmfngjju5dKZ", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({
-    embeds: [
-      {
-        title: "NEW BLOG!",
-        description: "Check out the latest chaos on Bruhs Blog!",
-        url: "https://bruhimgaming.github.io/bruhsbog/",
-        color: 0x00ff00, // Neon green color
-        timestamp: new Date().toISOString()
-      }
-    ]
-  })
-})
-.then(response => console.log("Embed sent!", response))
-.catch(error => console.error("Error:", error));
-</script>
-
 </html>
