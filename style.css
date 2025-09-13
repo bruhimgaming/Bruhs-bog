@@ -1,0 +1,26 @@
+
+body {
+    background-color: black;
+    color: #39ff14;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+}
+.neon {
+    text-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14,
+    0 0 20px #39ff14,
+    0 0 40px #39ff14;
+}
+button {
+    background-color: #000;
+    color: #39ff14;
+    border: 2px solid #39ff14;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14;
+}
